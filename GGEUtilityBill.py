@@ -74,4 +74,4 @@ GJ_cost_with_tax = GJ_cost + (GJ_cost * tax_rate)
 
 total_amount_due = fixed_monthly_fee + fixed_natural_gas_fee + kWh_cost_with_tax + GJ_cost_with_tax
 
-print("Thank you! Your total amount due now is: $", total_amount_due)
+print("Thank you! Your total amount due now is: $","%.2f" % total_amount_due)
